@@ -11,8 +11,6 @@ const Gallery = (props) => {
   const { loading, runSearch, upDatePageNumber, pageNumber, resetPageNumber } = useContext(PhotoContext);
   const [modal, setModal] = useState(false);
   const [imgSource, setImgSource] = useState(false);
-  // const [pageNumber, setPageNumber] = useState(1);
-  // const [clearImage, setClearImage] = useState(true);
   const results = props.data;
   const currentSearchTerm = props.searchTerm;
 
